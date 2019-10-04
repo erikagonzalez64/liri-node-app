@@ -8,9 +8,9 @@ var keys = require("./keys.js");
 var spotify = new Spotify({
     id: ("0ce31499874f40acbcb6bd9300ae94c7"),
     secret: ("eb43ea8434cc4c7f94e0dd7571e6e58f")
-}
+})
 //info for request
- var request = require("request");
+var request = require("request");
 //info for moment
 var moment = require("moment");
 //info for fs
@@ -38,7 +38,7 @@ if (command === "concert-this") {
     var song = process.argv[3];
 
     if (song === undefined) {
-        song = "The Sign";
+        song = "Weightless";
     }
 
     spotify.search({
@@ -58,7 +58,7 @@ if (command === "concert-this") {
     });
 
 
-    // IF you want to know about a MOVIE
+    // to know about a MOVIE
 } else if (command === "movie-this") {
 
     var movie = process.argv[3];
@@ -85,7 +85,7 @@ if (command === "concert-this") {
         }
     });
 
-    // WILDCARD
+    // something ra
 } else if (command === "do-what-it-says") {
 
     fs.readFile("random.txt", "utf8", function (error, data) {
@@ -117,12 +117,12 @@ if (command === "concert-this") {
             });
 
 
-            // IF WILDCARD want to know about a SONG
+            // IF random want to know about a SONG
         } else if (command === "spotify-this-song") {
             var song = whatToCommand;
 
             if (song === undefined) {
-                song = "The Sign";
+                song = "Weightless";
             }
 
             spotify.search({
@@ -143,7 +143,7 @@ if (command === "concert-this") {
             });
 
 
-            // IF WILDCARD wants to know about a MOVIE
+            // IF random wants to know about a MOVIE
         } else if (command === "movie-this") {
 
             var movie = whatToCommand;
@@ -156,7 +156,7 @@ if (command === "concert-this") {
 
                 if (!error && response.statusCode === 200) {
 
-                    // Information about Movie
+                    // info about Movie
                     console.log("-------------------------------------");
                     console.log("Title: " + JSON.parse(body).Title);
                     console.log("Year Released: " + JSON.parse(body).Year);
