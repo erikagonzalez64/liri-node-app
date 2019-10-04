@@ -42,7 +42,7 @@ EXAMPLE: put a screenshot of using node liri.bot spotify-this-song "Weightless"
   EXAMPLE: put a screenshot of using node liri.bot movie-this "Naruto"
   
 4. node liri.js do-what-it-says
-  -Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+    • Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
   
   
   
