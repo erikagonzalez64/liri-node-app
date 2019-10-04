@@ -1,2 +1,4 @@
 # liri-node-app
-Liri bot will search spotify for songs, etc.
+week 10 homework called LIRI BOT!! yayyyyyyyyyyy
+
+#Liri Bot
