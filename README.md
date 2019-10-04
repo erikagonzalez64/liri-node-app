@@ -6,12 +6,12 @@ LIRI stands for Language Interpretation and Recognition Interface. Liri is like 
 
 The app will be able to take in one of the following commands:
 
-# concert-this
-# spotify-this-song
-# movie-this
-# do-what-it-says
-# What each command should do
-# node liri.js concert-this <artist/band name here>
+1. concert-this
+2. spotify-this-song
+3. movie-this
+4. do-what-it-says
+5. What each command should do
+6. node liri.js concert-this <artist/band name here>
 
 
 
