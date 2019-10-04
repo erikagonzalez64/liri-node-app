@@ -15,30 +15,29 @@ The app will be able to take in one of the following commands:
 
 # What Each Command Should Do!
 1. node liri.js concert-this <artist/band name here>
-  -Name of the venue
-  -Venue location
-  -Date of the Event (use moment to format this as "MM/DD/YYYY")
-
+    • Name of the venue
+    • Venue location
+    • Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 EXAMPLE: put a screenshot of using node liri.bot concert-this Tame Impala
 
 2. node liri.js spotify-this-song '<song name here>'
-  - Artist(s)
-  -The song's name
-  -A preview link of the song from Spotify
-  -The album that the song is from
+    • Artist(s)
+    • The song's name
+    • A preview link of the song from Spotify
+    • The album that the song is from
   
 EXAMPLE: put a screenshot of using node liri.bot spotify-this-song "Weightless"
 
 3. node liri.js movie-this '<movie name here>'
-  -Title of the movie.
-  -Year the movie came out.
-  -IMDB Rating of the movie.
-  -Rotten Tomatoes Rating of the movie.
-  -Country where the movie was produced.
-  -Language of the movie.
-  -Plot of the movie.
-  -Actors in the movie.
+    • Title of the movie.
+    • Year the movie came out.
+    • IMDB Rating of the movie.
+    • Rotten Tomatoes Rating of the movie.
+    • Country where the movie was produced.
+    • Language of the movie.
+    • Plot of the movie.
+    • Actors in the movie.
   
   EXAMPLE: put a screenshot of using node liri.bot movie-this "Naruto"
   
