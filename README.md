@@ -13,6 +13,12 @@ The app will be able to take in one of the following commands:
 5. What each command should do
 6. node liri.js concert-this <artist/band name here>
 
+# What Each Command Should Do!
+1. node liri.js concert-this <artist/band name here>
+  -Name of the venue
+  -Venue location
+  -Date of the Event (use moment to format this as "MM/DD/YYYY")
+
 
 
 
