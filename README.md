@@ -18,8 +18,8 @@ The app will be able to take in one of the following commands:
     • Name of the venue
     • Venue location
     • Date of the Event (use moment to format this as "MM/DD/YYYY")
-
-EXAMPLE: put a screenshot of using node liri.bot concert-this Tame Impala
+    
+EXAMPLE 1 : put a screenshot of using node liri.bot concert-this Tame Impala
 
 2. node liri.js spotify-this-song '<song name here>'
     • Artist(s)
@@ -27,7 +27,7 @@ EXAMPLE: put a screenshot of using node liri.bot concert-this Tame Impala
     • A preview link of the song from Spotify
     • The album that the song is from
   
-EXAMPLE: put a screenshot of using node liri.bot spotify-this-song "Weightless"
+EXAMPLE 2 : put a screenshot of using node liri.bot spotify-this-song "Weightless"
 
 3. node liri.js movie-this '<movie name here>'
     • Title of the movie.
@@ -39,7 +39,7 @@ EXAMPLE: put a screenshot of using node liri.bot spotify-this-song "Weightless"
     • Plot of the movie.
     • Actors in the movie.
   
-  EXAMPLE: put a screenshot of using node liri.bot movie-this "Naruto"
+  EXAMPLE 3 : put a screenshot of using node liri.bot movie-this "Naruto"
   
 4. node liri.js do-what-it-says
     • Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
